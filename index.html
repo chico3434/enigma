@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma</title>
+</head>
+<body>
+    <script>
+        function tentar() {
+            let url = document.getElementById('tentativa').value + '.html';
+            window.location.href = url;
+        }
+    </script>
+    <input id="tentativa" name="tentativa" type="text" placeholder="Digite algo">
+    <button onclick="tentar()">Tentar</button>
+</body>
+</html>
