@@ -1,0 +1,14 @@
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center .box {
+    width: 400px;
+    height: 300px;
+}          
+body {
+    margin: 0px;
+}
